@@ -1,0 +1,23 @@
+from django.db import models
+from django.utils import timezone
+from django.contrib.auth.models import User
+from django.urls import reverse
+
+
+# Create your models here.
+class Post(models.Model):
+    title = models.CharField(max_length=100)
+    content = models.TextField(max_length=100000)
+    date_posted = models.DateTimeField(default=timezone.now)
+    author = models.ForeignKey(User, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.title
+        # return str(self.title)+' by '+str(self.author)
+
+    # for redirecting after creating post
+    def get_absolute_url(self):
+        # it redirects to post-detail page (post 1)
+        return reverse('post-detail', kwargs={'pk': self.pk})
+    # or Put get_success_url method to view 
+

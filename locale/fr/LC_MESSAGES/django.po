@@ -1,0 +1,235 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-26 10:23+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: blog/filters.py:17 blog/forms.py:12
+msgid "title"
+msgstr "Titre"
+
+#: blog/filters.py:18
+msgid "author"
+msgstr "auteur"
+
+#: blog/forms.py:13
+msgid "content"
+msgstr "contenu"
+
+#: blog/templates/blog/about.html:4
+msgid "This is about page"
+msgstr "Il s'agit de la page"
+
+#: blog/templates/blog/base.html:16 blog/templates/blog/base.html:18
+msgid "Django blog"
+msgstr "Blog Django"
+
+#: blog/templates/blog/base.html:27
+msgid "Django Blog"
+msgstr "Blog Django"
+
+#: blog/templates/blog/base.html:33
+msgid "Home"
+msgstr "Maison"
+
+#: blog/templates/blog/base.html:34
+msgid "About"
+msgstr "À propos de"
+
+#: blog/templates/blog/base.html:39
+msgid "Create Post"
+msgstr "Créer un article"
+
+#: blog/templates/blog/base.html:40
+msgid "Profile"
+msgstr "Profil"
+
+#: blog/templates/blog/base.html:41
+msgid "Logout"
+msgstr "Se déconnecter"
+
+#: blog/templates/blog/base.html:43 users/templates/users/login.html:16
+msgid "Login"
+msgstr "Connexion"
+
+#: blog/templates/blog/base.html:44
+msgid "Register"
+msgstr "S'inscrire"
+
+#: blog/templates/blog/base.html:71
+msgid "Our Sidebar"
+msgstr "Notre barre latérale"
+
+#: blog/templates/blog/base.html:72
+msgid "You can put any information here you'd like."
+msgstr "Vous pouvez y mettre toutes les informations que vous souhaitez."
+
+#: blog/templates/blog/base.html:74
+msgid "Latest Posts"
+msgstr "Derniers messages"
+
+#: blog/templates/blog/base.html:75
+msgid "Announcements"
+msgstr "Annonces"
+
+#: blog/templates/blog/base.html:76
+msgid "Calendars"
+msgstr "Calendriers"
+
+#: blog/templates/blog/base.html:77
+msgid "etc"
+msgstr "etc"
+
+#: blog/templates/blog/home.html:5
+msgid "Blog home!"
+msgstr "Accueil du blog !"
+
+#: blog/templates/blog/home.html:9
+msgid "Search"
+msgstr "Chercher"
+
+#: blog/templates/blog/post_confirm_delete.html:8
+msgid "Delete Post"
+msgstr "Supprimer le message"
+
+#: blog/templates/blog/post_confirm_delete.html:9
+msgid "Are you sure you want to delete the Post"
+msgstr "Êtes-vous sûr de vouloir supprimer le message"
+
+#: blog/templates/blog/post_confirm_delete.html:13
+msgid "Yes,Delete"
+msgstr "Oui, supprimer"
+
+#: blog/templates/blog/post_confirm_delete.html:14
+msgid "Cancel"
+msgstr "Annuler"
+
+#: blog/templates/blog/post_detail.html:14
+#: users/templates/users/profile.html:22
+msgid "Update"
+msgstr "Mise à jour"
+
+#: blog/templates/blog/post_detail.html:15
+msgid "Delete"
+msgstr "Effacer"
+
+#: blog/templates/blog/post_form.html:9
+msgid "Blog Post"
+msgstr "Article de blog"
+
+#: blog/templates/blog/post_form.html:14
+msgid "Post"
+msgstr "Poste"
+
+#: blog/templates/blog/post_list.html:5
+msgid "Post by"
+msgstr "Posté par"
+
+#: django_project/settings.py:170
+msgid "English"
+msgstr "Anglais"
+
+#: django_project/settings.py:171
+msgid "French"
+msgstr "Français"
+
+#: users/forms.py:12 users/forms.py:20
+msgid "email"
+msgstr "e-mail"
+
+#: users/forms.py:32
+msgid "image"
+msgstr "image"
+
+#: users/forms.py:33
+msgid "Choose file"
+msgstr "Choisir le fichier"
+
+#: users/forms.py:34
+msgid "No file choosen"
+msgstr "la redevance par contamination"
+
+#: users/templates/users/login.html:12
+msgid "Log IN"
+msgstr "Connexion"
+
+#: users/templates/users/login.html:18
+msgid "Forgot Password?"
+msgstr "Mot de passe oublié?"
+
+#: users/templates/users/login.html:23
+msgid "Need An Account?"
+msgstr "Besoin d'un compte?"
+
+#: users/templates/users/login.html:23
+msgid "Sign up now"
+msgstr "S'inscrire maintenant"
+
+#: users/templates/users/password_reset.html:9
+#: users/templates/users/password_reset_confirm.html:9
+#: users/templates/users/password_reset_confirm.html:13
+msgid "Reset Password"
+msgstr "réinitialiser le mot de passe"
+
+#: users/templates/users/password_reset.html:13
+#, fuzzy
+#| msgid "Reset Password"
+msgid "Request Password Reset"
+msgstr "Demander la réinitialisation du mot de passe"
+
+#: users/templates/users/password_reset_complete.html:6
+msgid "your password has been reset successfully"
+msgstr "votre mot de passe a été réinitialisé avec succès"
+
+#: users/templates/users/password_reset_complete.html:7
+msgid "Sign In Here"
+msgstr "Se connecter ici"
+
+#: users/templates/users/password_reset_done.html:6
+msgid "An email has been sent successfully"
+msgstr "Un e-mail a été envoyé avec succès"
+
+#: users/templates/users/profile.html:16
+msgid "Profile Info"
+msgstr "Informations sur le profil"
+
+#: users/templates/users/register.html:9
+msgid "Join Today"
+msgstr "Joignez aujourd'hui"
+
+#: users/templates/users/register.html:14
+msgid "Sign Up"
+msgstr "S'inscrire"
+
+#: users/templates/users/register.html:19
+msgid "Already Have An Account?"
+msgstr "Vous avez déjà un compte?"
+
+#: users/templates/users/register.html:19
+msgid "Sign In"
+msgstr "S'identifier"
+
+#: users/views.py:16
+msgid "you are ready for login"
+msgstr "vous êtes prêt à vous connecter"
+
+#: users/views.py:33
+msgid "Your Account updated successfully!!"
+msgstr "Votre compte a été mis à jour avec succès !!"
+
+#~ msgid "%(username)"
+#~ msgstr "%(Nom d'utilisateur)"
