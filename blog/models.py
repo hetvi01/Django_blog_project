@@ -13,11 +13,9 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
-        # return str(self.title)+' by '+str(self.author)
 
     # for redirecting after creating post
     def get_absolute_url(self):
         # it redirects to post-detail page (post 1)
         return reverse('post-detail', kwargs={'pk': self.pk})
-    # or Put get_success_url method to view 
-
+    # or Put get_success_url method to view

@@ -3,6 +3,7 @@ from django.contrib.auth.decorators import login_required
 from django.shortcuts import redirect, render
 from django.utils.translation import gettext as _
 
+from constants import MSG_REGISTER_USER_SUCCESSFULLY, MSG_USER_PROFILE_UPDATED_SUCCESSFULLY
 from users.forms import UserRegisterForm, UserUpdateForm, ProfileUpdateForm
 
 
@@ -13,7 +14,7 @@ def register(request):
         if form.is_valid():
             form.save()
             username = form.cleaned_data.get('username')
-            translated_messgae = _('you are ready for login')
+            translated_messgae = _(MSG_REGISTER_USER_SUCCESSFULLY)
             messages.success(request, f' {username} {translated_messgae}')
             return redirect('login')
     else:
@@ -30,7 +31,7 @@ def profile(request):
         if u_form.is_valid() and p_form.is_valid():
             u_form.save()
             p_form.save()
-            messages.success(request, _('Your Account updated successfully!!'))
+            messages.success(request, _(MSG_USER_PROFILE_UPDATED_SUCCESSFULLY))
             return redirect('profile')
     else:
         u_form = UserUpdateForm(instance=request.user)

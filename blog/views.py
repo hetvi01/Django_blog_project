@@ -9,30 +9,6 @@ from blog.forms import CretePostForm
 from blog.models import Post
 
 
-# posts = [
-#     {
-#         'author': 'CoreyMS',
-#         'title': 'Blog Post 1',
-#         'content': 'First post content',
-#         'date_posted': 'August 27, 2021'
-#     },
-#     {
-#         'author': 'Jane Doe',
-#         'title': 'Blog Post 2',
-#         'content': 'Second post content',
-#         'date_posted': 'August 28, 2021  '
-#     }
-# ]
-# function view
-# def home(request):
-
-#     context={'posts1':Post.objects.all()}
-#     return render(request,'blog/home.html',context)
-
-
-# class based view
-# print(User.objects.all())
-
 class PostListView(ListView):
     model = Post
     template_name = 'blog/home.html'

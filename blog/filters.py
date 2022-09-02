@@ -1,8 +1,7 @@
 import django_filters
 from django.utils.translation import gettext_lazy as _
-from modeltranslation.forms import TranslationModelForm
 
-from .models import *
+from blog.models import Post
 
 
 class PostFilter(django_filters.FilterSet):
@@ -19,5 +18,3 @@ class PostFilter(django_filters.FilterSet):
         super(PostFilter, self).__init__(*args, **kwargs)
         self.filters['title'].label = _('title')
         self.filters['author'].label = _("author")
-
-
