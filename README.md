@@ -33,7 +33,7 @@ sudo apt-get -y install postgresql # You can define specific version here
 
 *4 .Migration*
 ```commandline
-    python Manage.py makemigrations
+    python manage.py makemigrations
     python manage.py migrate
 ```
 
