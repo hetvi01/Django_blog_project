@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-26 10:23+0530\n"
+"POT-Creation-Date: 2023-01-05 11:15+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: blog/filters.py:17 blog/forms.py:12
+#: blog/filters.py:19 blog/forms.py:12
 msgid "title"
 msgstr "title"
 
-#: blog/filters.py:18
+#: blog/filters.py:20
 msgid "author"
 msgstr "author"
 
@@ -70,30 +70,6 @@ msgstr "Login"
 msgid "Register"
 msgstr "Register"
 
-#: blog/templates/blog/base.html:71
-msgid "Our Sidebar"
-msgstr "Our Sidebar"
-
-#: blog/templates/blog/base.html:72
-msgid "You can put any information here you'd like."
-msgstr "You can put any information here you'd like."
-
-#: blog/templates/blog/base.html:74
-msgid "Latest Posts"
-msgstr "Latest Posts"
-
-#: blog/templates/blog/base.html:75
-msgid "Announcements"
-msgstr "Announcements"
-
-#: blog/templates/blog/base.html:76
-msgid "Calendars"
-msgstr "Calendars"
-
-#: blog/templates/blog/base.html:77
-msgid "etc"
-msgstr "etc"
-
 #: blog/templates/blog/home.html:5
 msgid "Blog home!"
 msgstr "Blog home!"
@@ -139,11 +115,11 @@ msgstr "Post"
 msgid "Post by"
 msgstr "Post by"
 
-#: django_project/settings.py:170
+#: django_project/settings.py:145
 msgid "English"
 msgstr "English"
 
-#: django_project/settings.py:171
+#: django_project/settings.py:146
 msgid "French"
 msgstr "French"
 
@@ -160,7 +136,7 @@ msgid "Choose file"
 msgstr "Choose file"
 
 #: users/forms.py:34
-msgid "No file choosen"
+msgid "No file chosen"
 msgstr "No file chosen"
 
 #: users/templates/users/login.html:12
@@ -178,6 +154,14 @@ msgstr "Need An Account?"
 #: users/templates/users/login.html:23
 msgid "Sign up now"
 msgstr "Sign up now"
+
+#: users/templates/users/logout.html:4
+msgid "You have been logged out "
+msgstr "You have been logged out"
+
+#: users/templates/users/logout.html:8
+msgid "Log In again"
+msgstr "Log In again"
 
 #: users/templates/users/password_reset.html:9
 #: users/templates/users/password_reset_confirm.html:9
@@ -229,13 +213,29 @@ msgstr "Already Have An Account?"
 msgid "Sign In"
 msgstr "Sign In"
 
-#: users/views.py:16
-msgid "you are ready for login"
-msgstr "you are ready for login"
+#~ msgid "Our Sidebar"
+#~ msgstr "Our Sidebar"
 
-#: users/views.py:33
-msgid "Your Account updated successfully!!"
-msgstr "Your Account updated successfully!!"
+#~ msgid "You can put any information here you'd like."
+#~ msgstr "You can put any information here you'd like."
+
+#~ msgid "Latest Posts"
+#~ msgstr "Latest Posts"
+
+#~ msgid "Announcements"
+#~ msgstr "Announcements"
+
+#~ msgid "Calendars"
+#~ msgstr "Calendars"
+
+#~ msgid "etc"
+#~ msgstr "etc"
+
+#~ msgid "you are ready for login"
+#~ msgstr "you are ready for login"
+
+#~ msgid "Your Account updated successfully!!"
+#~ msgstr "Your Account updated successfully!!"
 
 #~ msgid "%(username)"
 #~ msgstr "%(username)"

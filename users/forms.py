@@ -31,7 +31,7 @@ class ProfileUpdateForm(TranslationModelForm):
         lables = {
             'image': _('image'),
             'Choose file': _('Choose file'),
-            'No file choosen': _('No file choosen')
+            'No file chosen': _('No file chosen')
 
         }
 
